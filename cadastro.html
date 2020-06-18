@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro - Health Track</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/bootstrap/js/jquery.js">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/img/healthtrack_logo.png">
+    </head>
+    <body>
+        <article class="container-fluid wrapper">
+            <header class="row container--logo">
+                <div class="col-md-offset-4 col-md-4 box--logo">
+                    <img class="img" src="/img/healthtrack-slogan.png" alt="Logo">
+                    <h1>Bem vind@ ao Health Track!</h1>
+                </div>
+            </header>
+            <section class="row container--form-box--create-account">
+                <div class="col-md-offset-4 col-md-4 box--create-account">
+                    <div class="owl--countainer owl-carousel">
+                        <form action="#" method="post" onsubmit="event.preventDefault(); cadastroPage.nextStep();">
+                            <div class="form-group">
+                                <label for="nome-completo">Nome</label>
+                                <input type="text" class="form-control" id="nome-completo" placeholder="Informe seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="exemplo@exemplo.com.br">
+                        </form>
+    
+                        <form action="#" method="post" onsubmit="event.preventDefault(); cadastroPage.nextStep();">
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control" id="senha" placeholder="Cadastre sua senha">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmacao-senha">Confirmação da senha</label>
+                                <input type="password" class="form-control" id="confirmacao-senha" placeholder="Repita a senha">
+                            </div>
+                        </form>
+    
+                        <form action="dashboard.html" method="post">
+                            <div class="form-group">
+                                <label for="peso">Peso (kg)</label>
+                                <input type="text" class="form-control" id="peso" placeholder="ex: 80,0">
+                            </div>
+                            <div class="form-group">
+                                <label for="altura">Altura (m)</label>
+                                <input type="text" class="form-control" id="altura" placeholder="ex: 1,90">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sexo">Objetivo</label>
+                                <select class="form-control" id="sexo">
+                                    <option>Selecione</option>
+                                    <option value="M">Controle de exercícios</option>
+                                    <option value="M">Emagrecer</option>
+                                    <option value="f">Ganhar massa</option>
+                                </select>
+
+                            <div class="form-group">
+                                <label for="altura">Meta - Peso</label>
+                                <input type="text" class="form-control" id="meta" placeholder="ex: 75,0">
+                            </div>
+                        </form>
+                        <section class="row container--create-account">
+                            <div class="col-md-offset-4 col-md-4 box--create-account">
+                                <a href="dashboard.html" title="Acessar">
+                                    <button type="button" class="btn btn-success">Cadastrar</button>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <script src="js/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

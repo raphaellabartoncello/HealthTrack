@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Health Track</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/bootstrap/js/jquery.js">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/img/healthtrack_logo.png">
+    </head>
+    <body>
+        <article class="container-fluid wrapper">
+            <header class="row container--top-bar">
+                <div class="col-md-3 box--logo-and-btn-menu">
+                    <div class="box--logo-logged-area">
+                        <img class="img" src="/img/healthtrack-slogan.png" alt="Logo">
+                    </div>
+                    
+                    <div id="button-menu-mob">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </header>
+            <section class="row container--body-page">
+                <nav class="col-md-3 box--menu">
+                    <ul class="ul--menu">
+                        <li class="item-menu">
+                            <a href="dashboard.html" title="Home">
+                                <span>Página Inicial</span>
+                            </a>
+                        </li>
+
+                        <li class="drop-item-menu">
+                            <span>Perfil</span>
+                        </li>
+
+                        
+                        <li class="drop-item-menu">
+                            <span>Acompanhamento de peso</span>
+                        </li>
+
+                        <li class="drop-item-menu">
+                            <span>Atividade Física</span>
+                        </li>
+
+                        <li class="drop-item-menu">
+                            <span>Registro Alimentar</span>
+                        </li>
+                        
+                        <li class="drop-item-menu">
+                            <span>Como estou?</span>
+                        </li>
+                        <li class="item-menu drop-item-menu">
+                            
+                        <a href="login.html" title="Logout" class="drop-item-menu">
+                            <span>Sair</span>
+                        </a>
+                    </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Conteúdo exclusivo de cada página -->
+                <div class="col-md-9 box--page-content">
+                    <div class="row container--title-page">
+                        <div class="col-md-12 box--title-page">
+                            <h1>Dashboard</h1>
+                        </div>
+                    </div>
+                    <div class="row container--dashboard-data">
+                        <div class="col-md-12 box--dashboard-data">
+                            <div class="box--user-photo"></div>
+                            <div class="box--user-informations-header">
+                                <span>
+                                    Olá <strong>Raphaella!</strong><br>
+                                    Atualize as informações e acompanhe sua evolução
+                                </span>
+                            </div>
+
+                            <div class="box--user-informations-line">
+                                <span>
+                                    Atura atual <strong id="altura">1.86</strong><br>
+                                    Registrado em: <strong id="data-altura">24/05/2020</strong>
+                                </span>
+                                <span>
+                                    Peso atual <strong id="peso">70kg</strong><br>
+                                    Registrado em: <strong id="data-peso">24/05/2020</strong>
+                                </span>
+                            </div>
+
+                            <div class="box--user-informations-line">
+                                <span>
+                                    IMC atual <strong id="imc">20.2 kg/m2</strong><br>
+                                    Classificação: <strong id="data-imc">Normalc</strong>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <script src="js/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
