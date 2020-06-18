@@ -415,7 +415,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
-    background-image: url(Raphaella1.jpg);
+    background-image: url(/img/Raphaella1.jpg);
     margin: 0 auto;
     margin-top: -64px;
 }
@@ -472,6 +472,3 @@ body {
     width: 200px;
     height: 200px;
 }
-
-
-
