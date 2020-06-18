@@ -12,14 +12,14 @@ Camadas View da solução Health Track desenvolvida durante o curso de Análise 
 
 <h2>Login</h2>
 
-<img src="/img/login.png">
+<img src="https://github.com/raphaellabartoncello/HealthTrack/blob/master/img/login.PNG">
 
 <h2>Cadastro de usuário</h2>
 
-<img src="/img/Cadastrar.png">
+<img src="https://github.com/raphaellabartoncello/HealthTrack/blob/master/img/Cadastrar.PNG">
 
 <h2>Dashboard</h2>
 
-<img src="/img/Dashboard.png">
+<img src="https://github.com/raphaellabartoncello/HealthTrack/blob/master/img/Dashboard.PNG">
 
 Visualização prévia: 👉 <a href="#">Health Track</a>
